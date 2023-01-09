@@ -1,0 +1,34 @@
+:root {
+    --ft-content: 'Rajdhani', sans-serif;
+    --ft-accent: 'Righteous', sans-serif;
+    --ft-monospace: 'VT323', monospace;
+    --hsl-orange-500: 36deg, 99%, 47%;
+    --hsl-orange-300: 35deg, 100%, 5%;
+    --hsl-green-500: 151deg, 29%, 40%;
+    --hsl-green-300: 158, 20%, 15%;
+    --hsl-blue-500: 228deg, 36%, 27%;
+    --hsl-blue-300: 230deg, 42%, 15%;
+    --hsl-lavender: 266deg, 47%, 90%;
+    --corner-radius: .375rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 1em;
+    font-weight: 400;
+    font-family: var(--ft-accent);
+}
+
+p {
+    font-size: 1.25em;
+    font-weight: 400;
+    font-family: var(--ft-content);
+}
+
+code {
+    font-family: var(--ft-monospace);
+}

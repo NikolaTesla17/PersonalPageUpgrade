@@ -1,0 +1,10 @@
+@mixin beveled-corners($c-radius: var(--corner-radius)) {
+    clip-path: polygon(0% $c-radius,
+            $c-radius 0%,
+            calc(100% - $c-radius) 0%,
+            100% $c-radius,
+            100% calc(100% - $c-radius),
+            calc(100% - $c-radius) 100%,
+            $c-radius 100%,
+            0% calc(100% - $c-radius));
+}

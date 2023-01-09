@@ -1,0 +1,45 @@
+@use './mixins.scss';
+
+code {
+    @include mixins.beveled-corners();
+    background-color: hsl(var(--hsl-green-300));
+    font-weight: 500;
+    font-size: 1.25rem;
+    color: hsl(var(--hsl-lavender));
+    padding: .5rem 1rem;
+    margin: 1rem;
+    font-smooth: never;
+    display: inline-block;
+    width: fit-content;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+a {
+    color: inherit;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+h1 {
+    color: hsl(var(--hsl-lavender));
+}
+
+img {
+    height: auto;
+}
+
+body {
+    background-color: hsl(var(--hsl-blue-300));
+    color: white;
+}

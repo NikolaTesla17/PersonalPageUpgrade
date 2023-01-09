@@ -1,0 +1,11 @@
+---
+title: Nero and Weddings
+summary: How I built an automated flower girl for a wedding
+---
+# Nero and Weddings
+
+While the Roman Emperor Nero may have had a few shortcomings he certainly knew how to do excessively lavish opulence right. One of his more interesting displays of extravenece was a banqueting room that would rain flower petals and perfume from its ceiling. Although this room may cause some issues with both allergies and perfume falling into your goblet, it certainly does make an impression. Upon hearing that I was tasked with creating a flower dispersal method for the wedding, I of course petitioned hard for the Nero solution to flower dispersal. However, it turned out that the wedding was outside, and all the turnkey solutions for megalomaniacal flower dispersal were either ceiling based, prohibitively expensive, or painted with particularly garish colors. So I settled on building an RC car that could be controlled through a website. The car would need vision capabilities so that anyone could drive the car from their phone without having to be near it and it would have to be relatively inexpensive and easy to make, we only had all summer after all.
+
+We eventually settled upon making a donkeyCar. To put it simply, a donkeyCar is a normal RC car with the original brain ripped out and another, smarter brain frankensteined in. The base of the donkeyCar is a standard RC car and a RaspberryPi. After some light disassembly, an extra servo shield and a handful of voided warranties the RaspberryPi can be easily connected to the car. Now we get to the fun part, the software. As all of you who have used a raspberryPi, or really any linux based computer would know, ARRGGGGHHHHHHHHHH. Well, it's not that bad. All you need to do is a headless setup of the pi, SSH into it, Install some dependencies, undervolt the CPU, setup a virtual environment, clone a GitHub repo, ignore some warnings, set up some domain forwarding, and finally make sure it all works. However, once you’ve done all that you have the world's coolest Minecraft Box/Emulator. In order to see how it disperses flowers, I don’t know, look at the wedding or something. I can’t do everything myself.
+
+![The RC car sitting in front of a monitor which is showing Minecraft being played.](car/minecraft.jpeg)
